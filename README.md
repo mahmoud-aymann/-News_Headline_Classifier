@@ -5,7 +5,7 @@
 [![Gradio](https://img.shields.io/badge/Gradio-3.0+-green.svg)](https://gradio.app)
 [![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
-An intelligent AI-powered application that automatically classifies news headlines into four main categories: **SPORTS**, **CRIME**, **EDUCATION**, and **COMEDY**. Built with machine learning and deployed as an interactive web application.
+A simple Natural Language Processing (NLP) project that classifies news headlines into four categories: **SPORTS**, **CRIME**, **EDUCATION**, and **COMEDY**. This is a beginner-friendly machine learning project demonstrating basic text classification using traditional ML techniques.
 
 ## 🚀 Live Demo
 
@@ -13,21 +13,21 @@ An intelligent AI-powered application that automatically classifies news headlin
 
 ## ✨ Features
 
-- 🎯 **Real-time Classification**: Instant headline categorization
-- 📊 **Probability Scores**: Confidence levels for each category
-- 🎨 **Clean UI**: User-friendly Gradio interface
-- ⚡ **Fast Inference**: Optimized for quick predictions
-- 🔄 **Auto-training**: Trains model on first run, caches for subsequent uses
-- 📱 **Responsive Design**: Works on desktop and mobile
+- 🎯 **Simple Classification**: Basic headline categorization into 4 categories
+- 📊 **Probability Scores**: Shows confidence levels for each category
+- 🎨 **Easy-to-use Interface**: Simple Gradio web interface
+- ⚡ **Quick Training**: Fast model training on small dataset
+- 🔄 **Model Caching**: Saves trained model for faster subsequent runs
+- 📚 **Learning Project**: Perfect for NLP beginners
 
 ## 🛠️ Tech Stack
 
-- **Machine Learning**: Scikit-learn, Multinomial Naive Bayes
-- **Text Processing**: CountVectorizer with 1-3 n-grams
-- **Web Interface**: Gradio
-- **Data Processing**: Pandas
-- **Model Persistence**: Joblib
-- **Deployment**: Hugging Face Spaces
+- **Machine Learning**: Scikit-learn, Multinomial Naive Bayes (simple baseline model)
+- **Text Processing**: CountVectorizer with 1-3 n-grams (basic feature extraction)
+- **Web Interface**: Gradio (easy web UI framework)
+- **Data Processing**: Pandas (data manipulation)
+- **Model Persistence**: Joblib (model saving/loading)
+- **Deployment**: Hugging Face Spaces (free hosting)
 
 ## 📁 Project Structure
 
@@ -95,11 +95,13 @@ news-headline-classifier/
 
 ## 📊 Model Performance
 
-The classifier achieves high accuracy on the four target categories:
+This is a simple baseline model for educational purposes. The classifier works on the four target categories:
 - **SPORTS**: Sports-related headlines
-- **CRIME**: Crime and legal news
+- **CRIME**: Crime and legal news  
 - **EDUCATION**: Educational content and school news
 - **COMEDY**: Humorous and entertainment content
+
+**Note**: This is a basic implementation using traditional ML techniques. For production use, consider more advanced models like transformers or deep learning approaches.
 
 ## 🔧 Configuration
 
@@ -150,18 +152,19 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 🙏 Acknowledgments
 
 - Thanks to the Scikit-learn team for the excellent ML library
-- Gradio for the intuitive web interface framework
+- Gradio for the simple web interface framework
 - Hugging Face for providing free hosting for ML applications
+- My instructor and the learning community for guidance
 - The open-source community for continuous inspiration
 
 ## 📈 Future Enhancements
 
-- [ ] Support for more categories
-- [ ] Real-time news API integration
-- [ ] Model performance metrics dashboard
-- [ ] Multi-language support
-- [ ] Advanced text preprocessing options
-- [ ] Model comparison tools
+- [ ] Add more categories (POLITICS, TECHNOLOGY, etc.)
+- [ ] Implement more advanced models (SVM, Random Forest)
+- [ ] Add model evaluation metrics (accuracy, precision, recall)
+- [ ] Improve text preprocessing (stop words removal, stemming)
+- [ ] Add support for larger datasets
+- [ ] Implement cross-validation for better model evaluation
 
 ---
 
