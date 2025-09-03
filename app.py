@@ -11,7 +11,7 @@ from news_classifier import (
 BASE_DIR = os.path.dirname(__file__)
 MODEL_PATH = os.path.join(BASE_DIR, 'model_pipeline.joblib')
 # DATA_PATH = r"D:\\AI_Diploma\\AI_diploma\\nlp\\nlp_project\\News_Category_Dataset_v3.json"
-DATA_PATH = "News_Category_Dataset_v3.json"
+DATA_PATH = "dataset_small.json"
 
 
 pipeline = load_or_train(MODEL_PATH, DATA_PATH)
